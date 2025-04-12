@@ -1,4 +1,4 @@
-package com.example.weebat.WebLab4.models;
+package com.example.weebat.WebLab4.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

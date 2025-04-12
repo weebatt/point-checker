@@ -140,7 +140,7 @@ export default {
     async sendPointToServer(x, y) {
       try {
         this.errorMessage = "";
-        const response = await fetch("http://localhost:55321/backend-1.0-SNAPSHOT/api/check-point", {
+        const response = await fetch("http://localhost/api/check-point", {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -191,7 +191,7 @@ export default {
 
     async clearAllPoints() {
       try {
-        const response = await fetch("http://localhost:55321/backend-1.0-SNAPSHOT/api/clear-points", {
+        const response = await fetch("http://localhost/api/clear-points", {
           method: 'DELETE',
           headers: {
             'Authorization': `Bearer ${localStorage.getItem('token')}`
@@ -213,7 +213,7 @@ export default {
 
     async fetchPoints() {
       try {
-        const response = await fetch("http://localhost:55321/backend-1.0-SNAPSHOT/api/points", {
+        const response = await fetch("http://localhost/api/points", {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

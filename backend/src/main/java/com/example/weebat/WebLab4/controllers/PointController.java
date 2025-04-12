@@ -2,7 +2,7 @@ package com.example.weebat.WebLab4.controllers;
 
 import com.example.weebat.WebLab4.dto.PointRequest;
 import com.example.weebat.WebLab4.dto.PointResponse;
-import com.example.weebat.WebLab4.models.Point;
+import com.example.weebat.WebLab4.entities.Point;
 import com.example.weebat.WebLab4.repositories.PointRepository;
 import org.springframework.web.bind.annotation.*;
 

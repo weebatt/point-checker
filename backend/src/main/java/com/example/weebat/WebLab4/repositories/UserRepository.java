@@ -1,6 +1,6 @@
 package com.example.weebat.WebLab4.repositories;
 
-import com.example.weebat.WebLab4.models.User;
+import com.example.weebat.WebLab4.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

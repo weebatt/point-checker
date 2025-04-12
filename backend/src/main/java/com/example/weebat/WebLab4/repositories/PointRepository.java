@@ -1,6 +1,6 @@
 package com.example.weebat.WebLab4.repositories;
 
-import com.example.weebat.WebLab4.models.Point;
+import com.example.weebat.WebLab4.entities.Point;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

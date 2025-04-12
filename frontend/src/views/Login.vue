@@ -35,7 +35,7 @@ export default {
   methods: {
     async handleLogin() {
       try {
-        const response = await fetch('http://localhost:55321/backend-1.0-SNAPSHOT/api/auth/login', {
+        const response = await fetch('http://localhost:8080/api/auth/login', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

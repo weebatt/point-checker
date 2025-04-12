@@ -2,7 +2,7 @@ package com.example.weebat.WebLab4.services;
 
 import com.example.weebat.WebLab4.dto.AuthRequest;
 import com.example.weebat.WebLab4.dto.RegisterRequest;
-import com.example.weebat.WebLab4.models.User;
+import com.example.weebat.WebLab4.entities.User;
 import com.example.weebat.WebLab4.repositories.UserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

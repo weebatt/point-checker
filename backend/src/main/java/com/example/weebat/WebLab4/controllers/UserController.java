@@ -5,7 +5,7 @@ import com.example.weebat.WebLab4.dto.AuthResponse;
 import com.example.weebat.WebLab4.dto.RegisterRequest;
 import com.example.weebat.WebLab4.services.UserService;
 import com.example.weebat.WebLab4.utils.JwtUtils;
-import com.example.weebat.WebLab4.models.User;
+import com.example.weebat.WebLab4.entities.User;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
